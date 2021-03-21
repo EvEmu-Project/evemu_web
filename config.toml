@@ -1,13 +1,16 @@
 baseURL = "https://evemu.dev/"
 languageCode = "en-us"
 title = "EVEmu"
-theme = "kube"
 description = "EVEmu is a server emulator for EVE Online"
 Paginate = 4
 [Params]
   RSSLink = "/index.xml"
   author = "EVEmu Project"
 
+[[menu.main]]
+    name = "About"
+    weight = -100
+    url = "/about/"
 [[menu.main]]
     name = "Docs"
     weight = -100
@@ -20,3 +23,15 @@ Paginate = 4
     name = "Faq"
     weight = -100
     url = "/faq/"
+[[menu.main]]
+    name = "Wiki"
+    weight = -100
+    url = "https://evemu.fandom.com/wiki/Evemu_Wikia"
+[[menu.main]]
+    name = "Project Status"
+    weight = -100
+    url = "/project_status/"
+[[menu.main]]
+    name = "Forums"
+    weight = -100
+    url = "https://forums.evemu.dev"

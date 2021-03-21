@@ -23,8 +23,6 @@
   {{ partial "meta/ogimage" . }}
   <!-- Site verification -->
   {{ if .IsHome }} {{ partial "site-verification" . }} {{ end }}
-  <!-- add googleAnalytics in config.toml -->
-  {{ template "_internal/google_analytics_async.html" . }}
   {{ if .RSSLink }}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }}
 
@@ -35,11 +33,11 @@
   {{ partial "favicon" . }}
 
   <link href="{{ "/css/font.css" | relURL }}" rel="stylesheet" type="text/css">
-  <link href="{{ "/css/kube.min.css" | relURL }}" rel="stylesheet" type="text/css">
-  <link href="{{ "/css/kube.legenda.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/evemu.min.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/evemu.legenda.css" | relURL }}" rel="stylesheet" type="text/css">
   <link href="{{ "/css/highlight.css" | relURL }}" rel="stylesheet" type="text/css">
   <link href="{{ "/css/master.css" | relURL }}" rel="stylesheet" type="text/css">
-  <link href="{{ "/css/kube.demo.css" | relURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "/css/evemu.master.css" | relURL }}" rel="stylesheet" type="text/css">
 <!-- Your own theme here -->
  <link href="{{ "/css/custom.css" | relURL }}" rel="stylesheet" type="text/css">
 <!-- js vendor -->
@@ -56,9 +54,9 @@
   <footer>{{ block "footer" . }}{{ end }}</footer>
 
 
-  <script src="{{ "/js/kube.js" | relURL }}" type="text/javascript">
+  <script src="{{ "/js/evemu.js" | relURL }}" type="text/javascript">
   </script>
-  <script src="{{ "/js/kube.legenda.js" | relURL }}" type="text/javascript">
+  <script src="{{ "/js/evemu.legenda.js" | relURL }}" type="text/javascript">
   </script>
   <script src="{{ "/js/master.js" | relURL }}" type="text/javascript">
   </script>
