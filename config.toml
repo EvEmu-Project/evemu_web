@@ -1,3 +1,22 @@
-baseURL = "http://example.org/"
+baseURL = "https://evemu.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "EVEmu"
+theme = "kube"
+description = "EVEmu is a server emulator for EVE Online"
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "EVEmu Project"
+
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+[[menu.main]]
+    name = "Faq"
+    weight = -100
+    url = "/faq/"
