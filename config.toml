@@ -30,7 +30,7 @@ Paginate = 4
 [[menu.main]]
     name = "Project Status"
     weight = -100
-    url = "/project_status/"
+    url = "https://wiki.evemu.dev/wiki/Crucible_Project_Status"
 [[menu.main]]
     name = "Forums"
     weight = -100
