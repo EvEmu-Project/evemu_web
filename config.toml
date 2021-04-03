@@ -26,7 +26,7 @@ Paginate = 4
 [[menu.main]]
     name = "Wiki"
     weight = -100
-    url = "https://evemu.fandom.com/wiki/Evemu_Wikia"
+    url = "https://wiki.evemu.dev"
 [[menu.main]]
     name = "Project Status"
     weight = -100
