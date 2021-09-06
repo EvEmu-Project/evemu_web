@@ -3,7 +3,7 @@ title = "Getting Started"
 description = "How to get started with EVEmu"
 date = 2021-03-21T16:21:47+01:00
 weight = 20
-draft = false
+draft = true
 bref = "How to get started with EVEmu"
 toc = true
 +++

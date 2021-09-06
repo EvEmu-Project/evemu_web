@@ -3,7 +3,7 @@ title = "Compiling From Source"
 description = "How to compile EVEmu from source."
 date = 2021-03-21T16:35:23+01:00
 weight = 20
-draft = false
+draft = true
 bref = "How to compile EVEmu from source."
 toc = true
 +++

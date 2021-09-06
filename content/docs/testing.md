@@ -3,7 +3,7 @@ title = "Testing EVEmu"
 description = "Help us test EVEmu!"
 date = 2021-03-21T16:35:03+01:00
 weight = 20
-draft = false
+draft = true
 bref = "Help us test EVEmu!"
 toc = true
 +++
